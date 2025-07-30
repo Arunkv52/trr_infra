@@ -10,7 +10,7 @@ const Header = () => {
   }
 
   return (
-    <header className='bg-white shadow-md fixed top-0 left-0 w-full z-50'>
+    <header className='bg-white/80 shadow-md fixed top-0 left-0 w-full z-50'>
       <div className='all-menu flex justify-between items-center px-5 py-3'>
         <div className='head w-[190px]'>
           <img src={Logo} alt='logo' className='w-full' />
@@ -18,7 +18,7 @@ const Header = () => {
 
         <div className='head-list hidden md:block'>
           <ul className='flex gap-6 text-black font-semibold text-[17px]'>
-            {['Models', 'Inventory', 'Offers', 'Financial Services'].map((item, index) => (
+            {['About', 'Specifications', 'Gallery', 'Products', 'Contact'].map((item, index) => (
               <li key={index} className='hover:underline hover:text-blue-700'>
                 <a href='#'>{item}</a>
               </li>
