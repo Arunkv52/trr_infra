@@ -3,18 +3,18 @@ import React from "react";
 const Contact = () => {
   return (
     <>
-      <div className="md:flex justify-content-center items-start">
-        <div className="contact-text py-20 md:px-10 px-5 md:w-1/2 w-full">
+      <div className="md:flex md:items-start" id="Contact">
+        <div className="contact-text md:py-20 py-10 md:px-10 px-5 md:w-1/2 w-full">
           <h2 className="md:text-4xl font-semibold text-3xl">
             Building India with Next-Gen 360°{" "}
             <span className="font-light">Concrete Solutions </span>
           </h2>
-          <p className="py-4">
+          <p className="md:py-4 py-0">
             <strong>AJAX:</strong> The Global Leader in SLCM with Over 25,000 Deliveries
             Worldwide. Trust Our Expertise to Elevate Your Projects.
           </p>
         </div>
-        <div className="contact-text py-20 md:px-10 px-5 w-full">
+        <div className="contact-text md:py-20 py-0 md:pb-0 pb-10 md:px-10 px-0 w-full">
           <div className="full-contain md:pb-10 pb-0">
             <div className="form-contact md:px-5 px-5 w-full">
               <form action="" method="get" className="flex flex-col gap-3">
@@ -38,7 +38,7 @@ const Contact = () => {
                 <input
                   type="email"
                   name="tel"
-                  placeholder="Enter your email"
+                  placeholder="Enter your phone number"
                   id=""
                   className="bg-black/20 p-3 outline-none"
                 />
@@ -54,7 +54,7 @@ const Contact = () => {
                 {/* Here add a Recaptacha */}
                 <button
                   type="submit"
-                  className="bg-[#ff0000] hover:bg-blue-900 text-white font-bold py-5 cursor-pointer"
+                  className="bg-[#ff0000] hover:bg-blue-900 text-white font-bold md:py-5 py-3 cursor-pointer"
                 >
                   Submit
                 </button>

@@ -4,7 +4,7 @@ import BannerImg from "../assets/banner-2.jpg";
 const Products = () => {
   return (
     <>
-      <div className="products text-white">
+      <div className="products text-white" id="Products">
         <div className="bg-txt bg-[#030436] w-fit md:px-10 md:py-20 md:flex justify-between">
           <div className="prod-txt py-10 md:px-0 px-5 md:w-1/3">
             <h2 className="md:text-3xl text-[24px] pb-5">

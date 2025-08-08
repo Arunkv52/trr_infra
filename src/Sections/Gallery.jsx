@@ -8,7 +8,7 @@ const Gallery = () => {
   return (
     <>
       <div className="gallery md:px-10 px-5 py-10">
-        <div className="gal-txt md:w-5/6 w-full">
+        <div className="gal-txt md:w-5/6 w-full" id="Specifications">
           <h2 className="font-bold text-2xl pb-4">Specifications</h2>
         </div>
         <div className="box-3-img md:flex justify-between items-top gap-5 md:py-5">
@@ -41,8 +41,8 @@ const Gallery = () => {
             </p>
           </div>
         </div>
-        <div className="my-carousal py-10 md:px-20 px-0">
-          <h5 className="md:text-[40px] text-[25px] text-center py-5 font-semibold">
+        <div className="my-carousal py-10 md:px-20 px-0" id="Gallery">
+          <h5 className="md:text-[40px] text-[25px] md:text-center text-left py-5 font-semibold">
             REVOLUTIONISING CONSTRUCTION DYNAMICS
           </h5>
           <MyCarousal />

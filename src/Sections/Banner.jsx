@@ -14,7 +14,7 @@ const Banner = () => {
             precision-engineered machines
           </p>
           <div className="header-btn flex justify-start md:gap-8 gap-4 flex-wrap py-2">
-            <a href="#">
+            <a href="#Contact">
               <div className="btn-2 border-2 border-white bg-white text-black w-fit px-10 md:py-2 py-3 rounded-3xl hover:bg-[#020741] hover:border-0 hover:text-white font-semibold">
                 Connect with us
               </div>

@@ -16,7 +16,7 @@ const Hero = () => {
       <Gallery />
       <Products />
       <Contact />
-      <Footer/>
+      <Footer />
     </>
   )
 }
