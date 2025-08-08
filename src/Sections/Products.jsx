@@ -18,9 +18,7 @@ const Products = () => {
               equipment, your concrete logistics are in safe hands for
               large-scale projects.
             </p>
-            <div className="btn-2 border-2 border-white bg-white text-black w-fit px-10 md:py-2 py-3 rounded-3xl hover:bg-[#020741] hover:border-0 hover:text-white font-light md:relative md:top-1/2">
-              <a href="#">Start Expressing Yourself</a>
-            </div>
+           
           </div>
           <div className="prod-img md:w-2/3 p-5">
             <img src={BannerImg} alt="" />
