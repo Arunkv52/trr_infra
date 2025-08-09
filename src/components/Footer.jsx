@@ -4,7 +4,7 @@ import Logo from "../assets/trrinfra-logo.jpg";
 const Footer = () => {
   return (
     <>
-      <footer className="text-white py-15 bg-[#030436]">
+      <footer className="text-white md:px-20 py-15 bg-[#030436]">
         <div className="md:px-5 px-5 md:flex justify-between">
           <div className="footer-logo">
             <img src={Logo} alt="Logo" className="md:w-[200px] w-[180px]" />
@@ -19,7 +19,14 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="">Phone : +91 98410 12828</a>
+                <a href="tel:044-24343828">Phone : 044-24343828</a>
+              </li>
+              <li><a href="tel:91769173458">Mobile : +91 91769 173458</a></li>
+              <li>
+                <a href="mailto:info@trrinfra.in">Mail : info@trrinfra.in</a>
+              </li>
+              <li>
+                <a href="https://www.trrgroup.in/">Website : www.trrgroup.in</a>
               </li>
             </ul>
           </div>

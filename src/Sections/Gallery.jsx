@@ -9,7 +9,7 @@ const Gallery = () => {
     <>
       <div className="gallery md:px-10 px-5 py-10">
         <div className="gal-txt md:w-5/6 w-full" id="Specifications">
-          <h2 className="font-bold text-2xl pb-4">Specifications</h2>
+          <h2 className="font-bold text-2xl pb-4 uppercase">Specifications</h2>
         </div>
         <div className="box-3-img md:flex justify-between items-top gap-5 md:py-5">
           <div className="box-1 py-6">

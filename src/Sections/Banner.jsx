@@ -1,11 +1,13 @@
 import React from "react";
 import "../styles/Banner.css";
+import AjaxLogo from '../assets/Ajax-logo.svg'
 
 const Banner = () => {
   return (
     <>
       <div className="bann-txt md:px-10 px-5 bg-cover bg-center">
-        <div className="bann-text-next relative top-2/4">
+        <img src={AjaxLogo} alt="" className="pt-25"/>
+        <div className="bann-text-next relative top-1/3">
           <h1 className="text-white md:text-5xl text-4xl md:w-1/2 w-full">
             Batching Plant: <strong>The Future of Construction</strong>
           </h1>

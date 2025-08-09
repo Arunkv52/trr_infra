@@ -10,7 +10,7 @@ const Header = () => {
   };
 
   return (
-    <header className="bg-white/80 shadow-md fixed top-0 left-0 w-full z-50 md:px-5 px-5 overflow-x-hidden">
+    <header className="bg-white/80 shadow-md fixed top-0 left-0 w-full z-50 md:px-10 px-5 overflow-x-hidden">
       <div className="flex justify-between items-center py-3">
         <div className="head md:w-[190px] w-[130px]">
           <a href="#">

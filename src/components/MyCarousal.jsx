@@ -6,6 +6,8 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "./ui/carousel";
+import Autoplay from "embla-carousel-autoplay";
+
 import Image from "../assets/volks-1.webp";
 import ImageItem from "../assets/ajax-top-img.png";
 import ImageItem2 from "../assets/maxresdefault.jpg";
@@ -13,33 +15,30 @@ import ImageItem2 from "../assets/maxresdefault.jpg";
 const MyCarousal = () => {
   return (
     <>
-      <Carousel>
+      <Carousel
+        plugins={[
+          Autoplay({
+            delay: 2000, // time between slides (ms)
+            stopOnInteraction: false, // keep autoplay after manual scroll
+          }),
+        ]}
+        opts={{
+          loop: true, // infinite looping
+        }}
+        className="w-full"
+      >
         <CarouselContent>
-           <CarouselItem>
-            <img
-              src={ImageItem}
-              alt=""
-              className="w-full md:h-[600px] h-auto object-cover"
-            />
+          <CarouselItem>
+            <img src={ImageItem} alt="Slide 1" className="w-full h-[600px] object-cover" />
           </CarouselItem>
           <CarouselItem>
-            <img
-              src={Image}
-              alt=""
-              className="w-full md:h-[600px] h-auto object-cover"
-            />
+            <img src={Image} alt="Slide 2" className="w-full h-[600px] object-cover" />
           </CarouselItem>
-         
           <CarouselItem>
-            <img
-              src={ImageItem2}
-              alt=""
-              className="w-full md:h-[600px] h-auto object-cover"
-            />
+            <img src={ImageItem2} alt="Slide 2" className="w-full h-[600px] object-cover" />
           </CarouselItem>
         </CarouselContent>
-        <CarouselPrevious className={"hidden md:block"} />
-        <CarouselNext className={"hidden md:block"} />
+        {/* No CarouselPrevious / CarouselNext for clean autoplay */}
       </Carousel>
     </>
   );

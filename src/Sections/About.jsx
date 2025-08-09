@@ -5,10 +5,10 @@ const About = () => {
     <>
       <div className="abt-section md:px-10 px-5 md:py-10 py-3" id="About">
         <div className="abt-txt">
-          <p className="font-semibold md:py-1 py-0">ABOUT TRR INFRA</p>
+          <p className="font-semibold md:py-1 py-0 md:text-2xl uppercase">ABOUT TRR INFRA</p>
           <p>
             TRR Infra, part of the TRR Group, has been providing construction,
-            quarry, and earthmoving equipment since 2007. With over 10 years of
+            quarry, and earthmoving equipment since 2007. With over 10+ years of
             experience and a strong partnership with JCB, a global leader in
             construction machinery, TRR Infra is ready to support India’s
             growing infrastructure needs.
