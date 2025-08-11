@@ -6,7 +6,7 @@ const Banner = () => {
   return (
     <>
       <div className="bann-txt md:px-10 px-5 bg-cover bg-center">
-        <img src={AjaxLogo} alt="" className="pt-25"/>
+        <img src={AjaxLogo} alt="" className="pt-25 w-[200px] bg-white"/>
         <div className="bann-text-next relative top-1/3">
           <h1 className="text-white md:text-5xl text-4xl md:w-1/2 w-full">
             Batching Plant: <strong>The Future of Construction</strong>
