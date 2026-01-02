@@ -27,9 +27,7 @@ const MyCarousal = () => {
         className="w-full"
       >
         <CarouselContent>
-          <CarouselItem>
-            <img src={ImageItem} alt="Slide 1" className="w-full h-[600px] object-cover" />
-          </CarouselItem>
+          
           <CarouselItem>
             <img src={Image} alt="Slide 2" className="w-full h-[600px] object-cover" />
           </CarouselItem>
