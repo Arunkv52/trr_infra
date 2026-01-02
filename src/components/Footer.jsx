@@ -63,7 +63,7 @@ const Footer = () => {
           <div className="md:w-[15%] w-full">
             <div className="footer-row-2 text-left">
               <p className="text-[20px]">
-                <strong>Our Branches</strong>
+                <strong>Territary We Covered</strong>
               </p>
               <ul className="text-[15px] md:py-3">
                 <li className="pb-1 ">

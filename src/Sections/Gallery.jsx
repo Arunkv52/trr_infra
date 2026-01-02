@@ -3,6 +3,8 @@ import MyCarousal from "../components/MyCarousal";
 import Gal_1 from "../assets/gal-1.webp";
 import Gal_2 from "../assets/gal-2.webp";
 import Gal_3 from "../assets/gal-3.webp";
+import Gal_4 from "../assets/gemini-udaan.png";
+import "../App.css";
 
 const Gallery = () => {
   return (
@@ -11,7 +13,7 @@ const Gallery = () => {
         <div className="gal-txt md:w-5/6 w-full" id="Specifications">
           <h2 className="font-bold text-2xl pb-4 uppercase">Specifications</h2>
         </div>
-        <div className="box-3-img md:flex justify-between items-top gap-5 md:py-5">
+        <div className="box-3-img grid grid-cols-4 gap-5 md:py-5">
           <div className="box-1 py-6">
             <img src={Gal_2} alt="" />
             <h5 className="pt-5 text-[18px] font-semibold">
@@ -31,23 +33,31 @@ const Gallery = () => {
           </div>
           <div className="box-1 py-6">
             <img src={Gal_3} alt="" />
-            <h5 className="pt-5 text-[18px] font-semibold">
-              Drum Design
-            </h5>
+            <h5 className="pt-5 text-[18px] font-semibold">Drum Design</h5>
             <p className="py-2">
               Optimized spiral position with anti-wear protection made from high
               strength steel for extended service life. Unique drum design made
               from highly durable steel.
             </p>
           </div>
+          <div className="box-1 py-6">
+            <img src={Gal_4} alt="" />
+            <h5 className="pt-5 text-[18px] font-semibold">Udaan</h5>
+            <p className="py-2">
+              Udaan is a powerful concrete mixer designed for speed and ease of
+              use. Its compact, robust design makes it perfect for narrow urban
+              sites and high-pressure construction projects, delivering maximum
+              results with minimal effort.
+            </p>
+          </div>
         </div>
-         <div className="my-carousal py-10 md:px-20 px-0" id="Gallery">
+        <div className="my-carousal py-10 md:px-20 px-0" id="Gallery">
           <h5 className="md:text-[40px] text-[25px] md:text-center text-left py-5 font-semibold">
             REVOLUTIONISING CONSTRUCTION DYNAMICS
           </h5>
           <MyCarousal />
         </div>
-         <div className="abt-prod md:py-20">
+        <div className="abt-prod md:py-20">
           <p className="font-semibold">REVOLUTIONISING CONSTRUCTION DYNAMICS</p>
           <h5 className="text-[20px] font-bold">Transit Mixer</h5>
           <div className="box-3 md:flex justify-between items-start py-5 gap-3">
@@ -86,9 +96,7 @@ const Gallery = () => {
             </div>
           </div>
         </div>
-       
       </div>
-      
     </>
   );
 };

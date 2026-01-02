@@ -33,3 +33,9 @@ body::-webkit-scrollbar-thumb {
     scrollbar-color: var(--sb-thumb-color) var(--sb-track-color);
   }
 }
+
+.box-1 img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
